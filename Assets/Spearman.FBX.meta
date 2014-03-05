@@ -1,0 +1,1128 @@
+fileFormatVersion: 2
+guid: 2403c89890af9444996fb96c40efab1e
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: giao
+    100002: Spear
+    100004: Spear 1
+    100006: Spear Head
+    100008: Spear L Calf
+    100010: Spear L Clavicle
+    100012: Spear L Foot
+    100014: Spear L Forearm
+    100016: Spear L Hand
+    100018: Spear L Thigh
+    100020: Spear L Toe0
+    100022: Spear L UpperArm
+    100024: Spear Neck
+    100026: Spear Pelvis
+    100028: Spear R Calf
+    100030: Spear R Clavicle
+    100032: Spear R Foot
+    100034: Spear R Forearm
+    100036: Spear R Hand
+    100038: Spear R Thigh
+    100040: Spear R Toe0
+    100042: Spear R UpperArm
+    100044: Spear Spine
+    100046: Spear Spine1
+    100048: Spear Spine2
+    100050: //RootNode
+    400000: giao
+    400002: Spear
+    400004: Spear 1
+    400006: Spear Head
+    400008: Spear L Calf
+    400010: Spear L Clavicle
+    400012: Spear L Foot
+    400014: Spear L Forearm
+    400016: Spear L Hand
+    400018: Spear L Thigh
+    400020: Spear L Toe0
+    400022: Spear L UpperArm
+    400024: Spear Neck
+    400026: Spear Pelvis
+    400028: Spear R Calf
+    400030: Spear R Clavicle
+    400032: Spear R Foot
+    400034: Spear R Forearm
+    400036: Spear R Hand
+    400038: Spear R Thigh
+    400040: Spear R Toe0
+    400042: Spear R UpperArm
+    400044: Spear Spine
+    400046: Spear Spine1
+    400048: Spear Spine2
+    400050: //RootNode
+    2300000: giao
+    3300000: giao
+    4300000: Spear
+    4300002: giao
+    7400000: walk
+    7400002: walkrun
+    7400004: run
+    7400006: attack
+    7400008: pre_idle
+    7400010: idle
+    7400012: break1
+    7400014: die
+    7400016: pre-attack
+    7400018: post-attack
+    7400020: break2
+    9500000: //RootNode
+    13700000: Spear
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: walk
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: giao
+        weight: 1
+      - path: Spear
+        weight: 1
+      - path: Spear 1
+        weight: 1
+      - path: Spear 1/Spear Pelvis
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear L Thigh
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear L Thigh/Spear L Calf
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear L Thigh/Spear L Calf/Spear L
+          Foot
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear L Thigh/Spear L Calf/Spear L
+          Foot/Spear L Toe0
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear R Thigh
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear R Thigh/Spear R Calf
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear R Thigh/Spear R Calf/Spear R
+          Foot
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear R Thigh/Spear R Calf/Spear R
+          Foot/Spear R Toe0
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2/Spear Neck
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2/Spear Neck/Spear
+          Head
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2/Spear Neck/Spear
+          L Clavicle
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2/Spear Neck/Spear
+          L Clavicle/Spear L UpperArm
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2/Spear Neck/Spear
+          L Clavicle/Spear L UpperArm/Spear L Forearm
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2/Spear Neck/Spear
+          L Clavicle/Spear L UpperArm/Spear L Forearm/Spear L Hand
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2/Spear Neck/Spear
+          R Clavicle
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2/Spear Neck/Spear
+          R Clavicle/Spear R UpperArm
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2/Spear Neck/Spear
+          R Clavicle/Spear R UpperArm/Spear R Forearm
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2/Spear Neck/Spear
+          R Clavicle/Spear R UpperArm/Spear R Forearm/Spear R Hand
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: walkrun
+      takeName: Take 001
+      firstFrame: 24
+      lastFrame: 28
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: giao
+        weight: 1
+      - path: Spear
+        weight: 1
+      - path: Spear 1
+        weight: 1
+      - path: Spear 1/Spear Pelvis
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear L Thigh
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear L Thigh/Spear L Calf
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear L Thigh/Spear L Calf/Spear L
+          Foot
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear L Thigh/Spear L Calf/Spear L
+          Foot/Spear L Toe0
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear R Thigh
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear R Thigh/Spear R Calf
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear R Thigh/Spear R Calf/Spear R
+          Foot
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear R Thigh/Spear R Calf/Spear R
+          Foot/Spear R Toe0
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2/Spear Neck
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2/Spear Neck/Spear
+          Head
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2/Spear Neck/Spear
+          L Clavicle
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2/Spear Neck/Spear
+          L Clavicle/Spear L UpperArm
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2/Spear Neck/Spear
+          L Clavicle/Spear L UpperArm/Spear L Forearm
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2/Spear Neck/Spear
+          L Clavicle/Spear L UpperArm/Spear L Forearm/Spear L Hand
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2/Spear Neck/Spear
+          R Clavicle
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2/Spear Neck/Spear
+          R Clavicle/Spear R UpperArm
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2/Spear Neck/Spear
+          R Clavicle/Spear R UpperArm/Spear R Forearm
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2/Spear Neck/Spear
+          R Clavicle/Spear R UpperArm/Spear R Forearm/Spear R Hand
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: run
+      takeName: Take 001
+      firstFrame: 38
+      lastFrame: 44
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: giao
+        weight: 1
+      - path: Spear
+        weight: 1
+      - path: Spear 1
+        weight: 1
+      - path: Spear 1/Spear Pelvis
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear L Thigh
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear L Thigh/Spear L Calf
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear L Thigh/Spear L Calf/Spear L
+          Foot
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear L Thigh/Spear L Calf/Spear L
+          Foot/Spear L Toe0
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear R Thigh
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear R Thigh/Spear R Calf
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear R Thigh/Spear R Calf/Spear R
+          Foot
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear R Thigh/Spear R Calf/Spear R
+          Foot/Spear R Toe0
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2/Spear Neck
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2/Spear Neck/Spear
+          Head
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2/Spear Neck/Spear
+          L Clavicle
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2/Spear Neck/Spear
+          L Clavicle/Spear L UpperArm
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2/Spear Neck/Spear
+          L Clavicle/Spear L UpperArm/Spear L Forearm
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2/Spear Neck/Spear
+          L Clavicle/Spear L UpperArm/Spear L Forearm/Spear L Hand
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2/Spear Neck/Spear
+          R Clavicle
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2/Spear Neck/Spear
+          R Clavicle/Spear R UpperArm
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2/Spear Neck/Spear
+          R Clavicle/Spear R UpperArm/Spear R Forearm
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2/Spear Neck/Spear
+          R Clavicle/Spear R UpperArm/Spear R Forearm/Spear R Hand
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: attack
+      takeName: Take 001
+      firstFrame: 50
+      lastFrame: 55
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: giao
+        weight: 1
+      - path: Spear
+        weight: 1
+      - path: Spear 1
+        weight: 1
+      - path: Spear 1/Spear Pelvis
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear L Thigh
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear L Thigh/Spear L Calf
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear L Thigh/Spear L Calf/Spear L
+          Foot
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear L Thigh/Spear L Calf/Spear L
+          Foot/Spear L Toe0
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear R Thigh
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear R Thigh/Spear R Calf
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear R Thigh/Spear R Calf/Spear R
+          Foot
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear R Thigh/Spear R Calf/Spear R
+          Foot/Spear R Toe0
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2/Spear Neck
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2/Spear Neck/Spear
+          Head
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2/Spear Neck/Spear
+          L Clavicle
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2/Spear Neck/Spear
+          L Clavicle/Spear L UpperArm
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2/Spear Neck/Spear
+          L Clavicle/Spear L UpperArm/Spear L Forearm
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2/Spear Neck/Spear
+          L Clavicle/Spear L UpperArm/Spear L Forearm/Spear L Hand
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2/Spear Neck/Spear
+          R Clavicle
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2/Spear Neck/Spear
+          R Clavicle/Spear R UpperArm
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2/Spear Neck/Spear
+          R Clavicle/Spear R UpperArm/Spear R Forearm
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2/Spear Neck/Spear
+          R Clavicle/Spear R UpperArm/Spear R Forearm/Spear R Hand
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: pre_idle
+      takeName: Take 001
+      firstFrame: 64
+      lastFrame: 93
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: giao
+        weight: 1
+      - path: Spear
+        weight: 1
+      - path: Spear 1
+        weight: 1
+      - path: Spear 1/Spear Pelvis
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear L Thigh
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear L Thigh/Spear L Calf
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear L Thigh/Spear L Calf/Spear L
+          Foot
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear L Thigh/Spear L Calf/Spear L
+          Foot/Spear L Toe0
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear R Thigh
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear R Thigh/Spear R Calf
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear R Thigh/Spear R Calf/Spear R
+          Foot
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear R Thigh/Spear R Calf/Spear R
+          Foot/Spear R Toe0
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2/Spear Neck
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2/Spear Neck/Spear
+          Head
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2/Spear Neck/Spear
+          L Clavicle
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2/Spear Neck/Spear
+          L Clavicle/Spear L UpperArm
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2/Spear Neck/Spear
+          L Clavicle/Spear L UpperArm/Spear L Forearm
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2/Spear Neck/Spear
+          L Clavicle/Spear L UpperArm/Spear L Forearm/Spear L Hand
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2/Spear Neck/Spear
+          R Clavicle
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2/Spear Neck/Spear
+          R Clavicle/Spear R UpperArm
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2/Spear Neck/Spear
+          R Clavicle/Spear R UpperArm/Spear R Forearm
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2/Spear Neck/Spear
+          R Clavicle/Spear R UpperArm/Spear R Forearm/Spear R Hand
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: idle
+      takeName: Take 001
+      firstFrame: 75
+      lastFrame: 93
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: giao
+        weight: 1
+      - path: Spear
+        weight: 1
+      - path: Spear 1
+        weight: 1
+      - path: Spear 1/Spear Pelvis
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear L Thigh
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear L Thigh/Spear L Calf
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear L Thigh/Spear L Calf/Spear L
+          Foot
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear L Thigh/Spear L Calf/Spear L
+          Foot/Spear L Toe0
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear R Thigh
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear R Thigh/Spear R Calf
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear R Thigh/Spear R Calf/Spear R
+          Foot
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear R Thigh/Spear R Calf/Spear R
+          Foot/Spear R Toe0
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2/Spear Neck
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2/Spear Neck/Spear
+          Head
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2/Spear Neck/Spear
+          L Clavicle
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2/Spear Neck/Spear
+          L Clavicle/Spear L UpperArm
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2/Spear Neck/Spear
+          L Clavicle/Spear L UpperArm/Spear L Forearm
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2/Spear Neck/Spear
+          L Clavicle/Spear L UpperArm/Spear L Forearm/Spear L Hand
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2/Spear Neck/Spear
+          R Clavicle
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2/Spear Neck/Spear
+          R Clavicle/Spear R UpperArm
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2/Spear Neck/Spear
+          R Clavicle/Spear R UpperArm/Spear R Forearm
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2/Spear Neck/Spear
+          R Clavicle/Spear R UpperArm/Spear R Forearm/Spear R Hand
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: break1
+      takeName: Take 001
+      firstFrame: 96
+      lastFrame: 101
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: giao
+        weight: 1
+      - path: Spear
+        weight: 1
+      - path: Spear 1
+        weight: 1
+      - path: Spear 1/Spear Pelvis
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear L Thigh
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear L Thigh/Spear L Calf
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear L Thigh/Spear L Calf/Spear L
+          Foot
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear L Thigh/Spear L Calf/Spear L
+          Foot/Spear L Toe0
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear R Thigh
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear R Thigh/Spear R Calf
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear R Thigh/Spear R Calf/Spear R
+          Foot
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear R Thigh/Spear R Calf/Spear R
+          Foot/Spear R Toe0
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2/Spear Neck
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2/Spear Neck/Spear
+          Head
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2/Spear Neck/Spear
+          L Clavicle
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2/Spear Neck/Spear
+          L Clavicle/Spear L UpperArm
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2/Spear Neck/Spear
+          L Clavicle/Spear L UpperArm/Spear L Forearm
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2/Spear Neck/Spear
+          L Clavicle/Spear L UpperArm/Spear L Forearm/Spear L Hand
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2/Spear Neck/Spear
+          R Clavicle
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2/Spear Neck/Spear
+          R Clavicle/Spear R UpperArm
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2/Spear Neck/Spear
+          R Clavicle/Spear R UpperArm/Spear R Forearm
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2/Spear Neck/Spear
+          R Clavicle/Spear R UpperArm/Spear R Forearm/Spear R Hand
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: die
+      takeName: Take 001
+      firstFrame: 102
+      lastFrame: 123
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: giao
+        weight: 1
+      - path: Spear
+        weight: 1
+      - path: Spear 1
+        weight: 1
+      - path: Spear 1/Spear Pelvis
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear L Thigh
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear L Thigh/Spear L Calf
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear L Thigh/Spear L Calf/Spear L
+          Foot
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear L Thigh/Spear L Calf/Spear L
+          Foot/Spear L Toe0
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear R Thigh
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear R Thigh/Spear R Calf
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear R Thigh/Spear R Calf/Spear R
+          Foot
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear R Thigh/Spear R Calf/Spear R
+          Foot/Spear R Toe0
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2/Spear Neck
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2/Spear Neck/Spear
+          Head
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2/Spear Neck/Spear
+          L Clavicle
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2/Spear Neck/Spear
+          L Clavicle/Spear L UpperArm
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2/Spear Neck/Spear
+          L Clavicle/Spear L UpperArm/Spear L Forearm
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2/Spear Neck/Spear
+          L Clavicle/Spear L UpperArm/Spear L Forearm/Spear L Hand
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2/Spear Neck/Spear
+          R Clavicle
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2/Spear Neck/Spear
+          R Clavicle/Spear R UpperArm
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2/Spear Neck/Spear
+          R Clavicle/Spear R UpperArm/Spear R Forearm
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2/Spear Neck/Spear
+          R Clavicle/Spear R UpperArm/Spear R Forearm/Spear R Hand
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: pre-attack
+      takeName: Take 001
+      firstFrame: 44
+      lastFrame: 50
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: giao
+        weight: 1
+      - path: Spear
+        weight: 1
+      - path: Spear 1
+        weight: 1
+      - path: Spear 1/Spear Pelvis
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear L Thigh
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear L Thigh/Spear L Calf
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear L Thigh/Spear L Calf/Spear L
+          Foot
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear L Thigh/Spear L Calf/Spear L
+          Foot/Spear L Toe0
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear R Thigh
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear R Thigh/Spear R Calf
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear R Thigh/Spear R Calf/Spear R
+          Foot
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear R Thigh/Spear R Calf/Spear R
+          Foot/Spear R Toe0
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2/Spear Neck
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2/Spear Neck/Spear
+          Head
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2/Spear Neck/Spear
+          L Clavicle
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2/Spear Neck/Spear
+          L Clavicle/Spear L UpperArm
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2/Spear Neck/Spear
+          L Clavicle/Spear L UpperArm/Spear L Forearm
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2/Spear Neck/Spear
+          L Clavicle/Spear L UpperArm/Spear L Forearm/Spear L Hand
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2/Spear Neck/Spear
+          R Clavicle
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2/Spear Neck/Spear
+          R Clavicle/Spear R UpperArm
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2/Spear Neck/Spear
+          R Clavicle/Spear R UpperArm/Spear R Forearm
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2/Spear Neck/Spear
+          R Clavicle/Spear R UpperArm/Spear R Forearm/Spear R Hand
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: post-attack
+      takeName: Take 001
+      firstFrame: 55
+      lastFrame: 63
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: giao
+        weight: 1
+      - path: Spear
+        weight: 1
+      - path: Spear 1
+        weight: 1
+      - path: Spear 1/Spear Pelvis
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear L Thigh
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear L Thigh/Spear L Calf
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear L Thigh/Spear L Calf/Spear L
+          Foot
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear L Thigh/Spear L Calf/Spear L
+          Foot/Spear L Toe0
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear R Thigh
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear R Thigh/Spear R Calf
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear R Thigh/Spear R Calf/Spear R
+          Foot
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear R Thigh/Spear R Calf/Spear R
+          Foot/Spear R Toe0
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2/Spear Neck
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2/Spear Neck/Spear
+          Head
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2/Spear Neck/Spear
+          L Clavicle
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2/Spear Neck/Spear
+          L Clavicle/Spear L UpperArm
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2/Spear Neck/Spear
+          L Clavicle/Spear L UpperArm/Spear L Forearm
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2/Spear Neck/Spear
+          L Clavicle/Spear L UpperArm/Spear L Forearm/Spear L Hand
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2/Spear Neck/Spear
+          R Clavicle
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2/Spear Neck/Spear
+          R Clavicle/Spear R UpperArm
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2/Spear Neck/Spear
+          R Clavicle/Spear R UpperArm/Spear R Forearm
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2/Spear Neck/Spear
+          R Clavicle/Spear R UpperArm/Spear R Forearm/Spear R Hand
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: break2
+      takeName: Take 001
+      firstFrame: 96
+      lastFrame: 101
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: giao
+        weight: 1
+      - path: Spear
+        weight: 1
+      - path: Spear 1
+        weight: 1
+      - path: Spear 1/Spear Pelvis
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear L Thigh
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear L Thigh/Spear L Calf
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear L Thigh/Spear L Calf/Spear L
+          Foot
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear L Thigh/Spear L Calf/Spear L
+          Foot/Spear L Toe0
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear R Thigh
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear R Thigh/Spear R Calf
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear R Thigh/Spear R Calf/Spear R
+          Foot
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear R Thigh/Spear R Calf/Spear R
+          Foot/Spear R Toe0
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2/Spear Neck
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2/Spear Neck/Spear
+          Head
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2/Spear Neck/Spear
+          L Clavicle
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2/Spear Neck/Spear
+          L Clavicle/Spear L UpperArm
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2/Spear Neck/Spear
+          L Clavicle/Spear L UpperArm/Spear L Forearm
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2/Spear Neck/Spear
+          L Clavicle/Spear L UpperArm/Spear L Forearm/Spear L Hand
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2/Spear Neck/Spear
+          R Clavicle
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2/Spear Neck/Spear
+          R Clavicle/Spear R UpperArm
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2/Spear Neck/Spear
+          R Clavicle/Spear R UpperArm/Spear R Forearm
+        weight: 1
+      - path: Spear 1/Spear Pelvis/Spear Spine/Spear Spine1/Spear Spine2/Spear Neck/Spear
+          R Clavicle/Spear R UpperArm/Spear R Forearm/Spear R Hand
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

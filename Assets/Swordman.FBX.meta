@@ -1,0 +1,1028 @@
+fileFormatVersion: 2
+guid: 9b2487822121e264cbd6b64208053496
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Sword
+    100002: sword
+    100004: sword Head
+    100006: sword L Calf
+    100008: sword L Clavicle
+    100010: sword L Foot
+    100012: sword L Forearm
+    100014: sword L Hand
+    100016: sword L Thigh
+    100018: sword L Toe0
+    100020: sword L UpperArm
+    100022: sword Neck
+    100024: sword Pelvis
+    100026: sword R Calf
+    100028: sword R Clavicle
+    100030: sword R Foot
+    100032: sword R Forearm
+    100034: sword R Hand
+    100036: sword R Thigh
+    100038: sword R Toe0
+    100040: sword R UpperArm
+    100042: sword Spine
+    100044: sword Spine1
+    100046: sword Spine2
+    100048: sword_mn
+    100050: //RootNode
+    400000: Sword
+    400002: sword
+    400004: sword Head
+    400006: sword L Calf
+    400008: sword L Clavicle
+    400010: sword L Foot
+    400012: sword L Forearm
+    400014: sword L Hand
+    400016: sword L Thigh
+    400018: sword L Toe0
+    400020: sword L UpperArm
+    400022: sword Neck
+    400024: sword Pelvis
+    400026: sword R Calf
+    400028: sword R Clavicle
+    400030: sword R Foot
+    400032: sword R Forearm
+    400034: sword R Hand
+    400036: sword R Thigh
+    400038: sword R Toe0
+    400040: sword R UpperArm
+    400042: sword Spine
+    400044: sword Spine1
+    400046: sword Spine2
+    400048: sword_mn
+    400050: //RootNode
+    2300000: Sword
+    3300000: Sword
+    4300000: Sword
+    4300002: sword_mn
+    7400000: all
+    7400002: run
+    7400004: attack
+    7400006: idle
+    7400008: Die1
+    7400010: Die2
+    7400012: walk
+    7400014: pre-atk
+    7400016: post-atk
+    7400018: hit
+    7400020: die
+    7400022: attack2
+    9500000: //RootNode
+    13700000: sword_mn
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: all
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 158
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: sword
+        weight: 1
+      - path: sword/sword Pelvis
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword L Thigh
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword L Thigh/sword L Calf
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword L Thigh/sword L Calf/sword L Foot
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword L Thigh/sword L Calf/sword L Foot/sword
+          L Toe0
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword R Thigh
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword R Thigh/sword R Calf
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword R Thigh/sword R Calf/sword R Foot
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword R Thigh/sword R Calf/sword R Foot/sword
+          R Toe0
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2/sword Neck
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2/sword Neck/sword
+          Head
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2/sword Neck/sword
+          L Clavicle
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2/sword Neck/sword
+          L Clavicle/sword L UpperArm
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2/sword Neck/sword
+          L Clavicle/sword L UpperArm/sword L Forearm
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2/sword Neck/sword
+          L Clavicle/sword L UpperArm/sword L Forearm/sword L Hand
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2/sword Neck/sword
+          R Clavicle
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2/sword Neck/sword
+          R Clavicle/sword R UpperArm
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2/sword Neck/sword
+          R Clavicle/sword R UpperArm/sword R Forearm
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2/sword Neck/sword
+          R Clavicle/sword R UpperArm/sword R Forearm/sword R Hand
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2/sword Neck/sword
+          R Clavicle/sword R UpperArm/sword R Forearm/sword R Hand/Sword
+        weight: 1
+      - path: sword_mn
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: walk
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: sword
+        weight: 1
+      - path: sword/sword Pelvis
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword L Thigh
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword L Thigh/sword L Calf
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword L Thigh/sword L Calf/sword L Foot
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword L Thigh/sword L Calf/sword L Foot/sword
+          L Toe0
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword R Thigh
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword R Thigh/sword R Calf
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword R Thigh/sword R Calf/sword R Foot
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword R Thigh/sword R Calf/sword R Foot/sword
+          R Toe0
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2/sword Neck
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2/sword Neck/sword
+          Head
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2/sword Neck/sword
+          L Clavicle
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2/sword Neck/sword
+          L Clavicle/sword L UpperArm
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2/sword Neck/sword
+          L Clavicle/sword L UpperArm/sword L Forearm
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2/sword Neck/sword
+          L Clavicle/sword L UpperArm/sword L Forearm/sword L Hand
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2/sword Neck/sword
+          R Clavicle
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2/sword Neck/sword
+          R Clavicle/sword R UpperArm
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2/sword Neck/sword
+          R Clavicle/sword R UpperArm/sword R Forearm
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2/sword Neck/sword
+          R Clavicle/sword R UpperArm/sword R Forearm/sword R Hand
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2/sword Neck/sword
+          R Clavicle/sword R UpperArm/sword R Forearm/sword R Hand/Sword
+        weight: 1
+      - path: sword_mn
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: run
+      takeName: Take 001
+      firstFrame: 28
+      lastFrame: 44
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: sword
+        weight: 1
+      - path: sword/sword Pelvis
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword L Thigh
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword L Thigh/sword L Calf
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword L Thigh/sword L Calf/sword L Foot
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword L Thigh/sword L Calf/sword L Foot/sword
+          L Toe0
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword R Thigh
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword R Thigh/sword R Calf
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword R Thigh/sword R Calf/sword R Foot
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword R Thigh/sword R Calf/sword R Foot/sword
+          R Toe0
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2/sword Neck
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2/sword Neck/sword
+          Head
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2/sword Neck/sword
+          L Clavicle
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2/sword Neck/sword
+          L Clavicle/sword L UpperArm
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2/sword Neck/sword
+          L Clavicle/sword L UpperArm/sword L Forearm
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2/sword Neck/sword
+          L Clavicle/sword L UpperArm/sword L Forearm/sword L Hand
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2/sword Neck/sword
+          R Clavicle
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2/sword Neck/sword
+          R Clavicle/sword R UpperArm
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2/sword Neck/sword
+          R Clavicle/sword R UpperArm/sword R Forearm
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2/sword Neck/sword
+          R Clavicle/sword R UpperArm/sword R Forearm/sword R Hand
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2/sword Neck/sword
+          R Clavicle/sword R UpperArm/sword R Forearm/sword R Hand/Sword
+        weight: 1
+      - path: sword_mn
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: pre-atk
+      takeName: Take 001
+      firstFrame: 44
+      lastFrame: 55
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: sword
+        weight: 1
+      - path: sword/sword Pelvis
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword L Thigh
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword L Thigh/sword L Calf
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword L Thigh/sword L Calf/sword L Foot
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword L Thigh/sword L Calf/sword L Foot/sword
+          L Toe0
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword R Thigh
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword R Thigh/sword R Calf
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword R Thigh/sword R Calf/sword R Foot
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword R Thigh/sword R Calf/sword R Foot/sword
+          R Toe0
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2/sword Neck
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2/sword Neck/sword
+          Head
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2/sword Neck/sword
+          L Clavicle
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2/sword Neck/sword
+          L Clavicle/sword L UpperArm
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2/sword Neck/sword
+          L Clavicle/sword L UpperArm/sword L Forearm
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2/sword Neck/sword
+          L Clavicle/sword L UpperArm/sword L Forearm/sword L Hand
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2/sword Neck/sword
+          R Clavicle
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2/sword Neck/sword
+          R Clavicle/sword R UpperArm
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2/sword Neck/sword
+          R Clavicle/sword R UpperArm/sword R Forearm
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2/sword Neck/sword
+          R Clavicle/sword R UpperArm/sword R Forearm/sword R Hand
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2/sword Neck/sword
+          R Clavicle/sword R UpperArm/sword R Forearm/sword R Hand/Sword
+        weight: 1
+      - path: sword_mn
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: attack
+      takeName: Take 001
+      firstFrame: 55
+      lastFrame: 61
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: sword
+        weight: 1
+      - path: sword/sword Pelvis
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword L Thigh
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword L Thigh/sword L Calf
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword L Thigh/sword L Calf/sword L Foot
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword L Thigh/sword L Calf/sword L Foot/sword
+          L Toe0
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword R Thigh
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword R Thigh/sword R Calf
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword R Thigh/sword R Calf/sword R Foot
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword R Thigh/sword R Calf/sword R Foot/sword
+          R Toe0
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2/sword Neck
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2/sword Neck/sword
+          Head
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2/sword Neck/sword
+          L Clavicle
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2/sword Neck/sword
+          L Clavicle/sword L UpperArm
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2/sword Neck/sword
+          L Clavicle/sword L UpperArm/sword L Forearm
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2/sword Neck/sword
+          L Clavicle/sword L UpperArm/sword L Forearm/sword L Hand
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2/sword Neck/sword
+          R Clavicle
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2/sword Neck/sword
+          R Clavicle/sword R UpperArm
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2/sword Neck/sword
+          R Clavicle/sword R UpperArm/sword R Forearm
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2/sword Neck/sword
+          R Clavicle/sword R UpperArm/sword R Forearm/sword R Hand
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2/sword Neck/sword
+          R Clavicle/sword R UpperArm/sword R Forearm/sword R Hand/Sword
+        weight: 1
+      - path: sword_mn
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: post-atk
+      takeName: Take 001
+      firstFrame: 61
+      lastFrame: 69
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: sword
+        weight: 1
+      - path: sword/sword Pelvis
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword L Thigh
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword L Thigh/sword L Calf
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword L Thigh/sword L Calf/sword L Foot
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword L Thigh/sword L Calf/sword L Foot/sword
+          L Toe0
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword R Thigh
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword R Thigh/sword R Calf
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword R Thigh/sword R Calf/sword R Foot
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword R Thigh/sword R Calf/sword R Foot/sword
+          R Toe0
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2/sword Neck
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2/sword Neck/sword
+          Head
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2/sword Neck/sword
+          L Clavicle
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2/sword Neck/sword
+          L Clavicle/sword L UpperArm
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2/sword Neck/sword
+          L Clavicle/sword L UpperArm/sword L Forearm
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2/sword Neck/sword
+          L Clavicle/sword L UpperArm/sword L Forearm/sword L Hand
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2/sword Neck/sword
+          R Clavicle
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2/sword Neck/sword
+          R Clavicle/sword R UpperArm
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2/sword Neck/sword
+          R Clavicle/sword R UpperArm/sword R Forearm
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2/sword Neck/sword
+          R Clavicle/sword R UpperArm/sword R Forearm/sword R Hand
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2/sword Neck/sword
+          R Clavicle/sword R UpperArm/sword R Forearm/sword R Hand/Sword
+        weight: 1
+      - path: sword_mn
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: idle
+      takeName: Take 001
+      firstFrame: 75
+      lastFrame: 93
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: sword
+        weight: 1
+      - path: sword/sword Pelvis
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword L Thigh
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword L Thigh/sword L Calf
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword L Thigh/sword L Calf/sword L Foot
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword L Thigh/sword L Calf/sword L Foot/sword
+          L Toe0
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword R Thigh
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword R Thigh/sword R Calf
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword R Thigh/sword R Calf/sword R Foot
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword R Thigh/sword R Calf/sword R Foot/sword
+          R Toe0
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2/sword Neck
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2/sword Neck/sword
+          Head
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2/sword Neck/sword
+          L Clavicle
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2/sword Neck/sword
+          L Clavicle/sword L UpperArm
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2/sword Neck/sword
+          L Clavicle/sword L UpperArm/sword L Forearm
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2/sword Neck/sword
+          L Clavicle/sword L UpperArm/sword L Forearm/sword L Hand
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2/sword Neck/sword
+          R Clavicle
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2/sword Neck/sword
+          R Clavicle/sword R UpperArm
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2/sword Neck/sword
+          R Clavicle/sword R UpperArm/sword R Forearm
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2/sword Neck/sword
+          R Clavicle/sword R UpperArm/sword R Forearm/sword R Hand
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2/sword Neck/sword
+          R Clavicle/sword R UpperArm/sword R Forearm/sword R Hand/Sword
+        weight: 1
+      - path: sword_mn
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: hit
+      takeName: Take 001
+      firstFrame: 102
+      lastFrame: 106
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: sword
+        weight: 1
+      - path: sword/sword Pelvis
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword L Thigh
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword L Thigh/sword L Calf
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword L Thigh/sword L Calf/sword L Foot
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword L Thigh/sword L Calf/sword L Foot/sword
+          L Toe0
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword R Thigh
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword R Thigh/sword R Calf
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword R Thigh/sword R Calf/sword R Foot
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword R Thigh/sword R Calf/sword R Foot/sword
+          R Toe0
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2/sword Neck
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2/sword Neck/sword
+          Head
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2/sword Neck/sword
+          L Clavicle
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2/sword Neck/sword
+          L Clavicle/sword L UpperArm
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2/sword Neck/sword
+          L Clavicle/sword L UpperArm/sword L Forearm
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2/sword Neck/sword
+          L Clavicle/sword L UpperArm/sword L Forearm/sword L Hand
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2/sword Neck/sword
+          R Clavicle
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2/sword Neck/sword
+          R Clavicle/sword R UpperArm
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2/sword Neck/sword
+          R Clavicle/sword R UpperArm/sword R Forearm
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2/sword Neck/sword
+          R Clavicle/sword R UpperArm/sword R Forearm/sword R Hand
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2/sword Neck/sword
+          R Clavicle/sword R UpperArm/sword R Forearm/sword R Hand/Sword
+        weight: 1
+      - path: sword_mn
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: die
+      takeName: Take 001
+      firstFrame: 135
+      lastFrame: 158
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: sword
+        weight: 1
+      - path: sword/sword Pelvis
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword L Thigh
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword L Thigh/sword L Calf
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword L Thigh/sword L Calf/sword L Foot
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword L Thigh/sword L Calf/sword L Foot/sword
+          L Toe0
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword R Thigh
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword R Thigh/sword R Calf
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword R Thigh/sword R Calf/sword R Foot
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword R Thigh/sword R Calf/sword R Foot/sword
+          R Toe0
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2/sword Neck
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2/sword Neck/sword
+          Head
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2/sword Neck/sword
+          L Clavicle
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2/sword Neck/sword
+          L Clavicle/sword L UpperArm
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2/sword Neck/sword
+          L Clavicle/sword L UpperArm/sword L Forearm
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2/sword Neck/sword
+          L Clavicle/sword L UpperArm/sword L Forearm/sword L Hand
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2/sword Neck/sword
+          R Clavicle
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2/sword Neck/sword
+          R Clavicle/sword R UpperArm
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2/sword Neck/sword
+          R Clavicle/sword R UpperArm/sword R Forearm
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2/sword Neck/sword
+          R Clavicle/sword R UpperArm/sword R Forearm/sword R Hand
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2/sword Neck/sword
+          R Clavicle/sword R UpperArm/sword R Forearm/sword R Hand/Sword
+        weight: 1
+      - path: sword_mn
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: attack2
+      takeName: Take 001
+      firstFrame: 44
+      lastFrame: 61
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: sword
+        weight: 1
+      - path: sword/sword Pelvis
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword L Thigh
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword L Thigh/sword L Calf
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword L Thigh/sword L Calf/sword L Foot
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword L Thigh/sword L Calf/sword L Foot/sword
+          L Toe0
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword R Thigh
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword R Thigh/sword R Calf
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword R Thigh/sword R Calf/sword R Foot
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword R Thigh/sword R Calf/sword R Foot/sword
+          R Toe0
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2/sword Neck
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2/sword Neck/sword
+          Head
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2/sword Neck/sword
+          L Clavicle
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2/sword Neck/sword
+          L Clavicle/sword L UpperArm
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2/sword Neck/sword
+          L Clavicle/sword L UpperArm/sword L Forearm
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2/sword Neck/sword
+          L Clavicle/sword L UpperArm/sword L Forearm/sword L Hand
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2/sword Neck/sword
+          R Clavicle
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2/sword Neck/sword
+          R Clavicle/sword R UpperArm
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2/sword Neck/sword
+          R Clavicle/sword R UpperArm/sword R Forearm
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2/sword Neck/sword
+          R Clavicle/sword R UpperArm/sword R Forearm/sword R Hand
+        weight: 1
+      - path: sword/sword Pelvis/sword Spine/sword Spine1/sword Spine2/sword Neck/sword
+          R Clavicle/sword R UpperArm/sword R Forearm/sword R Hand/Sword
+        weight: 1
+      - path: sword_mn
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
